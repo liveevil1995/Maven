@@ -1,0 +1,26 @@
+.promo {
+    position: relative;
+    min-height: 721px;
+    padding: 269px 0 140px 0;
+    background: #F1F7F6;
+    &__title {
+        position: relative;
+        max-width: 525px;
+        z-index: 5;
+    }
+    &__form {
+        position: relative;
+        margin-top: 36px;
+        z-index: 5;
+    }
+    &__img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+        @include promo_circle;
+        img {
+            width: 100%;
+        }
+    }
+}

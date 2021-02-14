@@ -1,0 +1,13 @@
+@mixin promo_circle {
+    &:before {
+        content: '';
+        position: absolute;
+        right: 63px;
+        bottom: 53px;
+        width: 621.38px;
+        height: 559.13px;
+        background: #DCE9E2;
+        border-radius: 100%;
+        z-index: -1;
+    }
+}

@@ -1,0 +1,19 @@
+.featured {
+    position: relative;
+    min-height: 263px;
+    padding-top: 70px;
+    background: rgba(241, 247, 246, 0.5);
+    &__blocks {
+        margin-top: 10px;
+        display: grid;
+        grid-template: repeat(auto-fit, 90px) / repeat(auto-fit, 200px);
+        justify-content: space-around;
+    }
+    &__block {
+        width: 200px;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

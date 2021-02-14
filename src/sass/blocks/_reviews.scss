@@ -1,0 +1,26 @@
+.reviews {
+    padding-top: 70px;
+    min-height: 716px;
+    background: #F1F7F6;
+    &__say {
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    &__img {
+        margin: 0 auto;
+        position: relative;
+        margin-top: 140px;
+        width: 500px;
+        height: 275px;
+        img {
+            position: absolute;       
+            left: 50%;
+            top: 23px;
+            transform: translateX(-50%);
+        }
+    }
+}
